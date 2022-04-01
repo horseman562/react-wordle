@@ -9,6 +9,7 @@ import { boardDefault } from "./Words";
 export const AppContext = createContext();
 
 function App() {
+  console.log("lol")
   const [board, setBoard] = useState(boardDefault);
   const [currAttempt, setCurrAttempt] = useState({ attempt: 0, letterPos: 0 })
 
